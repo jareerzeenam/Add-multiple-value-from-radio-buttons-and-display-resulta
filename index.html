@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!--  -->
+    <title>Seylan | Travel Island</title>
+</head>
+
+<body>
+
+    <div>
+        <div class="container img-banner">
+            <div>
+                <img class="logo-img" src="./img/logo.jpg" alt="">
+            </div>
+            <!--  -->
+            <div class="banner-img-padding">
+                <img src="./img/banner.jpg" alt="" width="100%">
+            </div>
+        </div>
+        <div class="bg-design">
+
+            <div class="travel-planner-heading center-align">
+                <h1>&nbsp; Travel Planner &nbsp;</h1>
+            </div>
+
+            <div class="container">
+                <form action="results.php" method="POST">
+                    <div class="row center">
+                        <h2 class="inner-heading">Who is travelling ?</h2>
+                        <div class="col m6 s6">
+                            <label>
+                                <input type="radio" name="who" value="1" required>
+                                <img class="img-hover" src="./img/card1.jpg" width="60%" alt="">
+                            </label>
+                        </div>
+                        <div class="col m6 s6">
+                            <label>
+                                <input type="radio" name="who" value="2">
+                                <img class="img-hover" src="./img/card2.jpg" width="60%" alt="">
+                            </label>
+                        </div>
+
+                    </div>
+                    <!--  -->
+                    <div class="row center">
+                        <h2 class="inner-heading">What Type of traveller are you ?</h2>
+                        <div class="col m6 s6">
+                            <label>
+                                <input type="radio" name="type" value="A" required>
+                                <img class="img-hover" src="./img/card3.jpg" width="60%" alt="">
+                            </label>
+                        </div>
+                        <div class="col m6 s6">
+                            <label>
+                                <input type="radio" name="type" value="B">
+                                <img class="img-hover" src="./img/card4.jpg" width="60%" alt="">
+
+                            </label>
+                        </div>
+                        <!-- <div class="col m4 s4">
+                        <label>
+                                <input type="radio" name="type" value="C">
+                                <img class="img-hover" src="./img/card4.jpg" width="100%" alt="">
+
+                            </label>
+                    </div> -->
+
+                    </div>
+                    <!--  -->
+                    <div class="row center">
+                        <h2 class="inner-heading">What do you prefer the most ?</h2>
+                        <div class="col m4 s4">
+                            <label>
+                                <input type="radio" name="prefer" value="X" required>
+                                <img class="img-hover" src="./img/card-sm-1.jpg" width="80%" alt="">
+                            </label>
+                        </div>
+                        <div class="col m4 s4">
+                            <label>
+                                <input type="radio" name="prefer" value="Y">
+                                <img class="img-hover" src="./img/card-sm-2.jpg" width="80%" alt="">
+                            </label>
+                        </div>
+                        <div class="col m4 s4">
+                            <label>
+                                <input type="radio" name="prefer" value="Z">
+                                <img class="img-hover" src="./img/card-sm-3.jpg" width="80%" alt="">
+                            </label>
+                        </div>
+
+                    </div>
+                    <!--  -->
+                    <div class="row center">
+                        <h2 class="inner-heading">When do you prefer to travel ?</h2>
+                        <div class="center-align">
+                            <div class="col m6 s6">
+                                <label>
+                                    <input type="radio" name="when" value="W" required>
+                                    <img class="img-hover" src="./img/week-ends.jpg" width="60%" alt="">
+                                </label>
+                            </div>
+                            <div class="col m6 s6">
+                                <label>
+                                    <input type="radio" name="when" value="W">
+                                    <img class="img-hover" src="./img/week-days.jpg" width="60%" alt="">
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--  -->
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <div class="right-align">
+                                <h2 class="inner-heading-plan-trip">Plan my trip >>></h2>
+                            </div>
+                        </div>
+                        <div class="col s12 m6">
+                            <div class="button-submit-align">
+                                <br>
+                                <button class="btn waves-effect waves-light submit-button" type="submit"
+                                    name="submit">Submit
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
