@@ -20,9 +20,9 @@ if(isset($_POST['submit'])){
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
      <!-- style -->
-     <link rel="stylesheet" href="./css/style.css">
+     
 
-    <title>Seylan | Results</title>
+    <title>Results</title>
 </head>
 <body class="result-bg" onload="displayContent()">
 
@@ -32,11 +32,9 @@ if(isset($_POST['submit'])){
     <br>
     <div id="1BXW" class="hidecontent">
     <p class="category-heading">The Soul Searcher</p>
-    <p class="inner-paragraph">
-            You travel to explore and find yourself just as much as to explore places. You believe in
-            experiencing things, as they are, all by yourself. Whether it’s going on long strolls, getting
-            lost amidst stunning sunrise and sunset views or standing over a cliff and staring at the
-            wonders of nature; your ultimate goal remains to find your soul.
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	Blanditiis laudantium itaque adipisci aut quam omnis doloribus.
+	Qui ut veniam quos vel labore, in iure officia!
     </p>
 	</div>
 
@@ -53,112 +51,84 @@ if(isset($_POST['submit'])){
 <!--  -->
 	<div id="2BZW" class="hidecontent">
         <p class="category-heading">The Groupie</p>
-        <p class="inner-paragraph">
-            You love being around people and it’s no different when you travel. Whether it’s friends or
-            family, you find elation in new destinations and experiences all the more in the company of
-            others. You’re the life of the party and you want to make sure everyone enjoys the journey as
-            much as you do. There’s simply never a dull moment on your travels.
-        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	Blanditiis laudantium itaque adipisci aut quam omnis doloribus.
+	Qui ut veniam quos vel labore, in iure officia!
+    </p>
     </div>
 
 	<div id="2BYW" class="hidecontent">
         <p class="category-heading">The Groupie</p>
-        <p class="inner-paragraph">
-            You love being around people and it’s no different when you travel. Whether it’s friends or
-            family, you find elation in new destinations and experiences all the more in the company of
-            others. You’re the life of the party and you want to make sure everyone enjoys the journey as
-            much as you do. There’s simply never a dull moment on your travels.
-        </p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	Blanditiis laudantium itaque adipisci aut quam omnis doloribus.
+	Qui ut veniam quos vel labore, in iure officia!
+    </p>
     </div>
     
 <!--  -->
 	<div id="1BYW" class="hidecontent">
         <p class="category-heading">The Island Trotter</p>
-        <p class="inner-paragraph">
-            The phrase “You only live once” doesn’t suit many others better than you. You’re all in for
-            adventurous, adrenaline-pumping, thrill-a-minute rides of different proportions and types and
-            don’t want your family or friends missing out on any of the fun. You’re daring and brave and
-            always one to chip in with your fair share of ideas on things to try at least once in a
-            lifetime. After all, YOLO.
-        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	Blanditiis laudantium itaque adipisci aut quam omnis doloribus.
+	Qui ut veniam quos vel labore, in iure officia!
+    </p>
 	</div>
 
 	<div id="2BXW" class="hidecontent">
         <p class="category-heading">The Island Trotter </p>
-        <p class="inner-paragraph">
-            The phrase “You only live once” doesn’t suit many others better than you. You’re all in for
-            adventurous, adrenaline-pumping, thrill-a-minute rides of different proportions and types and
-            don’t want your family or friends missing out on any of the fun. You’re daring and brave and
-            always one to chip in with your fair share of ideas on things to try at least once in a
-            lifetime. After all, YOLO.
-        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	Blanditiis laudantium itaque adipisci aut quam omnis doloribus.
+	Qui ut veniam quos vel labore, in iure officia!
+    </p>
     </div>
 
 <!--  -->
 	<div id="1AXW" class="hidecontent">
         <p class="category-heading">The Recharge Retreater </p>
-        <p class="inner-paragraph">
-            You’re the traveler looking for a holiday to just soothe your soul and give yourself a
-            much-needed break. You can’t wait to get away from the hustle and bustle of the city and the
-            stresses of work, and pamper yourself, whether you’re alone or in the company of your loved
-            ones. You prefer to stay indoors, relax and rejuvenate in your spell away from the fast-paced
-            routine, hence recharging yourself in the process.
-        </p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	Blanditiis laudantium itaque adipisci aut quam omnis doloribus.
+	Qui ut veniam quos vel labore, in iure officia!
+    </p>
 	</div>
 
 	<div id="1AYW" class="hidecontent">
         <p class="category-heading">The Recharge Retreater</p>
-        <p class="inner-paragraph">
-            You’re the traveler looking for a holiday to just soothe your soul and give yourself a
-            much-needed break. You can’t wait to get away from the hustle and bustle of the city and the
-            stresses of work, and pamper yourself, whether you’re alone or in the company of your loved
-            ones. You prefer to stay indoors, relax and rejuvenate in your spell away from the fast-paced
-            routine, hence recharging yourself in the process.
-        </p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	Blanditiis laudantium itaque adipisci aut quam omnis doloribus.
+	Qui ut veniam quos vel labore, in iure officia!
+    </p>
     </div>
     
 	<div id="1AZW" class="hidecontent">
         <p class="category-heading">The Recharge Retreater</p>
-        <p class="inner-paragraph">
-            You’re the traveler looking for a holiday to just soothe your soul and give yourself a
-            much-needed break. You can’t wait to get away from the hustle and bustle of the city and the
-            stresses of work, and pamper yourself, whether you’re alone or in the company of your loved
-            ones. You prefer to stay indoors, relax and rejuvenate in your spell away from the fast-paced
-            routine, hence recharging yourself in the process.
-        </p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	Blanditiis laudantium itaque adipisci aut quam omnis doloribus.
+	Qui ut veniam quos vel labore, in iure officia!
+    </p>
     </div>
     
 	<div id="2AXW" class="hidecontent">
         <p class="category-heading">The Recharge Retreater</p>
-        <p class="inner-paragraph">
-            You’re the traveler looking for a holiday to just soothe your soul and give yourself a
-            much-needed break. You can’t wait to get away from the hustle and bustle of the city and the
-            stresses of work, and pamper yourself, whether you’re alone or in the company of your loved
-            ones. You prefer to stay indoors, relax and rejuvenate in your spell away from the fast-paced
-            routine, hence recharging yourself in the process.
-        </p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	Blanditiis laudantium itaque adipisci aut quam omnis doloribus.
+	Qui ut veniam quos vel labore, in iure officia!
+    </p>
     </div>
     
 	<div id="2AYW" class="hidecontent">
         <p class="category-heading">The Recharge Retreater</p>
-        <p class="inner-paragraph">
-            You’re the traveler looking for a holiday to just soothe your soul and give yourself a
-            much-needed break. You can’t wait to get away from the hustle and bustle of the city and the
-            stresses of work, and pamper yourself, whether you’re alone or in the company of your loved
-            ones. You prefer to stay indoors, relax and rejuvenate in your spell away from the fast-paced
-            routine, hence recharging yourself in the process.
-        </p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	Blanditiis laudantium itaque adipisci aut quam omnis doloribus.
+	Qui ut veniam quos vel labore, in iure officia!
+    </p>
     </div>
     
 	<div id="2AZW" class="hidecontent">
         <p class="category-heading">The Recharge Retreater</p>
-        <p class="inner-paragraph">
-            You’re the traveler looking for a holiday to just soothe your soul and give yourself a
-            much-needed break. You can’t wait to get away from the hustle and bustle of the city and the
-            stresses of work, and pamper yourself, whether you’re alone or in the company of your loved
-            ones. You prefer to stay indoors, relax and rejuvenate in your spell away from the fast-paced
-            routine, hence recharging yourself in the process.
-        </p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	Blanditiis laudantium itaque adipisci aut quam omnis doloribus.
+	Qui ut veniam quos vel labore, in iure officia!
+    </p>
 	</div>
 </div>
 </div>
