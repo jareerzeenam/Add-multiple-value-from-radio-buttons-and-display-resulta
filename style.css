@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo-img{
+    width: 20%;
+    margin-top: 20px;
+}
+
+.img-banner{
+    width: 90% !important;
+}
+
+.banner-img-padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.travel-planner-heading h1 {
+    font-weight: bold;
+    position: relative;
+    font-size: 40px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+.travel-planner-heading h1:before, .travel-planner-heading h1:after {
+    position: absolute;
+    top: 60%;
+    overflow: hidden;
+    width: 50%;
+    height: 2px;
+    content: '\a0';
+    background-color: black;
+}
+.travel-planner-heading h1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+.inner-heading{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.inner-heading-plan-trip{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.submit-button:hover{
+    width: 190px;
+    font-size: 28px;
+}
+
+.submit-button{
+    margin-top: 15px;
+    font-size: 30px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    height: 50px;;
+    width: 180px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#820304+0,e50102+50,820304+100 */
+background: rgb(130,3,4); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(130,3,4,1) 0%, rgba(229,1,2,1) 50%, rgba(130,3,4,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(130,3,4,1) 0%,rgba(229,1,2,1) 50%,rgba(130,3,4,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(130,3,4,1) 0%,rgba(229,1,2,1) 50%,rgba(130,3,4,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#820304', endColorstr='#820304',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+.img-hover{
+    -webkit-transition: outline 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: outline 0.5s;
+}
+.img-hover:hover{
+    outline: 5px solid#DA0100;
+    
+}
+
+/*! Radio */
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+   
+}
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer !important;
+  }
+  
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 6px solid rgb(42, 42, 233);
+  }
+
+  /* label:hover{
+      border:5px solid red;
+  } */
+
+  .bg-design{
+      background-image: url(../img/Pattern1.png) !important;
+      background-repeat: no-repeat;
+      background-size: 1400px 1800px;
+      
+  }
+
+
+  .result-bg{
+    background-image: url(../img/Pattern1.png) !important;
+    background-repeat: no-repeat;
+    background-size: 1400px 1800px;
+  }
+
+  /* !result page */
+  .travel-questions{
+      font-size: 2rem;
+      color: rgb(236, 236, 236);
+  }
+  .travel-answers{
+      font-size: 1rem;
+      font-weight: bold;
+      color:  #ffff !important;
+  }
+  
+  .card{
+    background: rgb(130,3,4); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(130,3,4,1) 0%, rgba(229,1,2,1) 50%, rgba(130,3,4,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(130,3,4,1) 0%,rgba(229,1,2,1) 50%,rgba(130,3,4,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(130,3,4,1) 0%,rgba(229,1,2,1) 50%,rgba(130,3,4,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#820304', endColorstr='#820304',GradientType=1 ); /* IE6-9 */
+
+      padding: 20px 50px 30px 50px;
+      border-radius: 40px 0px 40px 0px;
+  }
+
+  .card-center{
+      margin-top: 100px;
+  }
+  .hidecontent{
+    display: none;
+    margin-top: 200px;
+}
+
+.inner-paragraph{
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+/*  */
+
+/* !category */
+.category-heading{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.category-container{
+    margin-top: 20px;
+}
+
+/* ! */
+
+
+  /* !MOBILE Responsive*/
+  @media screen and (max-width: 600px) {
+
+    .travel-planner-heading h1 {
+        font-size: 26px;
+    }
+
+    .inner-heading {
+        font-size: 1.4rem;
+        margin-bottom: 24px;
+        margin-top: 32px;
+    }
+    .inner-heading-plan-trip {
+        font-size: 30px;
+    }
+    .submit-button {
+        margin-top: -26px;
+        font-size: 20px;
+        border-radius: 30px;
+        text-transform: capitalize;
+        height: 36px;
+    }
+    .button-submit-align{
+        text-align: center;
+    }
+
+    .travel-questions {
+        font-size: 1.1rem;
+    }
+
+    .card-center {
+        margin-top: 75px;
+    }
+  }
+
+  /* ! */
